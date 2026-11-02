@@ -939,17 +939,15 @@ nav { animation: fadeSlideIn 1s 0.2s ease both; }
   <!-- ═══ HEADER ═══ -->
   <header>
     <div class="header-title-block">
-      <div class="site-eyebrow">◈ SYSTEM :: PORTFOLIO INTERFACE v2026.03</div>
+      <div class="site-eyebrow">◈ SYSTEM :: PORTFOLIO INTERFACE v2026.11</div>
       <h1 class="site-title">
         Remy <span class="accent">Ochei</span><br>
         at the <span class="studio">Bracket Studio</span>
       </h1>
       <div class="header-rule"></div>
-      <div class="header-tagline">SOFTWARE ENGINEERING · MACHINE LEARNING · DATA SCIENCE · RESEARCH</div>
+      <div class="header-tagline">RESEARCH · MACHINE LEARNING · SOFTWARE ENGINEERING · DATA SCIENCE</div>
       <div style="margin-top:10px; font-family:'Share Tech Mono',monospace; font-size:10px; color:var(--text-dim); letter-spacing:0.12em;">
-        <a href="/cdn-cgi/l/email-protection#4a2e256423242c2324233e2f26330a2d272b232664292527" style="color:var(--text-dim);text-decoration:none;margin-right:20px;">✉ <span class="__cf_email__" data-cfemail="0d69622364636b646364796861744d6a606c6461236e6260">[email&#160;protected]</span></a>
-        <a href="https://linktr.ee/aleph_zero" target="_blank" style="color:var(--text-dim);text-decoration:none;margin-right:20px;">⬡ linktr.ee/aleph_zero</a>
-        <span style="color:var(--text-dim);">📞 469-553-8882</span>
+        <a href="mailto:do.infinitely@gmail.com" style="color:var(--text-dim);text-decoration:none;margin-right:20px;">✉ do.infinitely@gmail.com</a>
       </div>
     </div>
 
@@ -982,6 +980,10 @@ nav { animation: fadeSlideIn 1s 0.2s ease both; }
           <span class="profile-label">Gender</span>
           <span class="profile-value">Non-binary</span>
         </div>
+        <div class="profile-row">
+          <span class="profile-label">Pronouns</span>
+          <span class="profile-value">they/them</span>
+        </div>
         <div class="profile-divider"></div>
         <div class="profile-row" style="flex-direction:column;gap:6px;">
           <span class="profile-label">Selections</span>
@@ -1003,7 +1005,7 @@ nav { animation: fadeSlideIn 1s 0.2s ease both; }
 
   <!-- ═══ NAV ═══ -->
   <nav>
-    <a class="nav-item active" href="#flagship">Flagship</a>
+    <a class="nav-item active" href="#research">Research</a>
     <a class="nav-item" href="#ai-ml">AI / ML</a>
     <a class="nav-item" href="#tools">Tools</a>
     <a class="nav-item" href="#creative">Creative</a>
@@ -1014,20 +1016,8 @@ nav { animation: fadeSlideIn 1s 0.2s ease both; }
   <!-- ═══ STATS ═══ -->
   <div class="stats-bar">
     <div class="stat-block">
-      <div class="stat-value">97</div>
+      <div class="stat-value">157</div>
       <div class="stat-label">GitHub Repos</div>
-    </div>
-    <div class="stat-block">
-      <div class="stat-value">19</div>
-      <div class="stat-label">Vercel Projects</div>
-    </div>
-    <div class="stat-block">
-      <div class="stat-value">22</div>
-      <div class="stat-label">GCP Projects</div>
-    </div>
-    <div class="stat-block">
-      <div class="stat-value">12</div>
-      <div class="stat-label">Railway Deployments</div>
     </div>
     <div class="stat-block">
       <div class="stat-value">10+</div>
@@ -1036,87 +1026,62 @@ nav { animation: fadeSlideIn 1s 0.2s ease both; }
   </div>
 
   <!-- ═══ FLAGSHIP PRODUCTS ═══ -->
-  <section class="section" id="flagship">
+  <section class="section" id="research">
     <div class="section-header">
       <span class="section-number">01</span>
       <div class="section-node"></div>
-      <h2 class="section-title">Flagship Products</h2>
+      <h2 class="section-title">Research</h2>
       <div class="section-line"></div>
     </div>
-    <div class="project-grid flagship">
+    <div class="project-grid">
 
-      <div class="project-card flagship">
-        <div class="card-tag live"><span class="pulse-node"></span>LIVE</div>
-        <div class="card-title">Rho-Bot</div>
-        <div class="card-desc">An autonomous desktop agent that automates computer tasks by observing user behavior, learning goals, and executing actions through clicks and keystrokes. Decomposes user objectives into hierarchical plans and executes them locally — a cheaper alternative to LLM-based computer automation.</div>
+      <div class="project-card">
+        <div class="card-tag research">RESEARCH</div>
+        <div class="card-title">Legible Networks</div>
+        <div class="card-desc">Can a trained network be recast exactly into a form whose weights can be read directly? An eight-post series on the method and case studies. Reported result: 99.97% of KataGo's weights legal without temperatures and 100% with them, at float-noise error. Self-directed, written in close collaboration with Claude; not peer reviewed or independently replicated.</div>
         <div class="card-links">
-          <a class="card-link" href="https://rho-bot.net" target="_blank">rho-bot.net</a>
+          <a class="card-link" href="https://doinfinitely.github.io/legible-networks/" target="_blank">read the series</a>
         </div>
-        <div class="card-footer">
-          <div class="card-tech">
-            <span class="tech-chip">TypeScript</span>
-            <span class="tech-chip">Python</span>
-          </div>
-        </div>
+        <div class="card-footer"><span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--text-dim);">2026 · Interpretability</span></div>
       </div>
 
-      <div class="project-card flagship">
-        <div class="card-tag live"><span class="pulse-node"></span>LIVE</div>
-        <div class="card-title">CloudRun</div>
-        <div class="card-desc">An age-restricted delivery marketplace (Model A, Texas-first) connecting merchants, customers, and drivers for regulated products. Features intelligent dispatch orchestration (FAST + BATCH algorithms), real-time tracking, age/ID verification, H3 geospatial indexing, OSRM routing, and full compliance infrastructure. FastAPI backend with 50+ endpoints, Celery workers, and four React storefronts.</div>
+      <div class="project-card">
+        <div class="card-tag dev">IN PROGRESS</div>
+        <div class="card-title">Transplant Readability Pilot</div>
+        <div class="card-desc">A draft pre-registered test of whether this form helps an LLM read weights, on a task where raw weights scored at chance. Not yet run. A negative result will be reported equally.</div>
         <div class="card-links">
-          <a class="card-link" href="https://cloudrun.shop" target="_blank">cloudrun.shop</a>
-          <a class="card-link" href="https://app.cloudrun.shop" target="_blank">app.cloudrun.shop</a>
-          <a class="card-link" href="https://merchant.cloudrun.shop" target="_blank">merchant.cloudrun.shop</a>
-          <a class="card-link" href="https://drive.cloudrun.shop" target="_blank">drive.cloudrun.shop</a>
-          <a class="card-link" href="https://admin.cloudrun.shop" target="_blank">admin.cloudrun.shop</a>
+          <a class="card-link" href="https://doinfinitely.github.io/legible-networks/pilot/" target="_blank">read the design</a>
         </div>
-        <div class="card-footer">
-          <div class="card-tech">
-            <span class="tech-chip">JavaScript</span>
-            <span class="tech-chip">TypeScript</span>
-            <span class="tech-chip">Python</span>
-            <span class="tech-chip">FastAPI</span>
-          </div>
-        </div>
+        <div class="card-footer"><span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--text-dim);">2026 · Draft</span></div>
       </div>
 
-      <div class="project-card flagship">
-        <div class="card-tag deployed">DEPLOYED</div>
-        <div class="card-title">TravelPal</div>
-        <div class="card-desc">A monorepo containing three React apps (FlavorAtlas, QuestLog, PhantomNav) sharing a Firebase backend and ~24 shared modules. Each app skins the same core concept — discovering and collecting real-world places — with a different video game aesthetic (Palia, Genshin Impact, Persona 5). Think Pokedex meets Yelp meets gacha games.</div>
+      <div class="project-card">
+        <div class="card-tag research">PUBLICATION</div>
+        <div class="card-title">Does WER Really Predict Performance?</div>
+        <div class="card-desc">"Automatic human utility evaluation of ASR systems: does WER really predict performance?" B. Favre, K. Cheung, S. Kazemian, A. Lee, Y. Liu, C. Munteanu, A. Nenkova, D. Ochei, G. Penn, S. Tratz, C. Voss, F. Zeller. Interspeech 2013.</div>
         <div class="card-links">
-          <a class="card-link" href="https://phantomnav.vercel.app" target="_blank">PhantomNav</a>
-          <a class="card-link" href="https://flavoratlas.vercel.app" target="_blank">FlavorAtlas</a>
-          <a class="card-link" href="https://questlog-remy-ocheis-projects.vercel.app" target="_blank">QuestLog</a>
+          <a class="card-link" href="https://www.isca-archive.org/interspeech_2013/favre13_interspeech.html" target="_blank">ISCA archive</a>
         </div>
-        <div class="card-footer">
-          <div class="card-tech">
-            <span class="tech-chip">TypeScript</span>
-            <span class="tech-chip">React</span>
-            <span class="tech-chip">Firebase</span>
-          </div>
-        </div>
+        <div class="card-footer"><span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--text-dim);">2013 · Speech &amp; NLP</span></div>
       </div>
 
-      <div class="project-card flagship">
-        <div class="card-tag broken">OFFLINE</div>
-        <div class="card-title">SparkSeekr</div>
-        <div class="card-desc">A companionship app where Seekers find their Muse.</div>
-        <div class="card-links">
-          <a class="card-link" href="https://sparkseekr.com" target="_blank">sparkseekr.com</a>
+      <div class="project-card">
+          <div class="card-tag research">RESEARCH</div>
+          <div class="card-title">Nicolelis Brain/Machine Interface Labs</div>
+          <div class="card-desc">Undergraduate Researcher — prototyped neuroprosthetics using linear regression and Kalman Filters to predict motor intentions from neuronal data. Senior thesis: Information Theoretic model of Artificial Tactile Stimulation computing BMI channel capacity.</div>
+          <div class="card-footer"><span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--text-dim);">Duke · 2011 – 2013 · Matlab · C/C++</span></div>
         </div>
-        <div class="card-footer">
-          <div class="card-tech">
-            <span class="tech-chip">TypeScript</span>
-          </div>
+
+      <div class="project-card">
+          <div class="card-tag research">RESEARCH</div>
+          <div class="card-title">Johns Hopkins CLSP</div>
+          <div class="card-desc">Computational Linguist — developed NLP technologies for extractive summarizers of multi-speaker audio. Implemented Graph Edit Distance reduction to Binary Linear Programming. Presented to NSF, ODNI, and Google Research.</div>
+          <div class="card-footer"><span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--text-dim);">Baltimore · 2012 · NLP · Python</span></div>
         </div>
-      </div>
 
     </div>
   </section>
 
-  <!-- ═══ AI / ML ═══ -->
   <section class="section" id="ai-ml">
     <div class="section-header">
       <span class="section-number">02</span>
@@ -1125,6 +1090,15 @@ nav { animation: fadeSlideIn 1s 0.2s ease both; }
       <div class="section-line"></div>
     </div>
     <div class="project-grid">
+
+      <div class="project-card">
+        <div class="card-tag deployed">PREVIEW</div>
+        <div class="card-title">Cockateal</div>
+        <div class="card-desc">Voice conversion that re-renders a recording in a different voice while keeping the original timing, phrasing and breaths, with pitch lock for singing.</div>
+        <div class="card-links">
+          <a class="card-link" href="https://cockateal.ai" target="_blank">cockateal.ai</a>
+        </div>
+      </div>
 
       <div class="project-card">
         <div class="card-tag live"><span class="pulse-node"></span>LIVE</div>
@@ -1318,6 +1292,8 @@ nav { animation: fadeSlideIn 1s 0.2s ease both; }
   </section>
 
   <!-- ═══ PRODUCTIVITY & TOOLS ═══ -->
+
+  <!-- ═══ AI / ML ═══ -->
   <section class="section" id="tools">
     <div class="section-header">
       <span class="section-number">03</span>
@@ -1326,57 +1302,6 @@ nav { animation: fadeSlideIn 1s 0.2s ease both; }
       <div class="section-line"></div>
     </div>
     <div class="project-grid">
-
-      <div class="project-card">
-        <div class="card-tag live"><span class="pulse-node"></span>LIVE</div>
-        <div class="card-title">Epsteinalysis</div>
-        <div class="card-desc">A document analysis and investigation platform for exploring ~1.05 million documents (2.08 million pages) related to the Epstein case. Provides browsing, searching, timeline views, network analysis, entity exploration, and image/video analysis.</div>
-        <div class="card-links">
-          <a class="card-link" href="https://epsteinalysis.com" target="_blank">epsteinalysis.com</a>
-        </div>
-        <div class="card-footer">
-          <div class="card-tech">
-            <span class="tech-chip">Python</span>
-            <span class="tech-chip">TypeScript</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="card-tag deployed">FUNCTIONAL</div>
-        <div class="card-title">Project Icarus</div>
-        <div class="card-desc">A Python CLI tool using Anthropic Claude to discover and publish stories from the Epstein files via Reddit (PRAW) and Twitter (Tweepy).</div>
-        <div class="card-footer">
-          <div class="card-tech">
-            <span class="tech-chip">Python</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="card-tag deployed">FUNCTIONAL</div>
-        <div class="card-title">Epstein Corollary</div>
-        <div class="card-desc">Related analysis/tooling for the Epstein investigation.</div>
-        <div class="card-footer">
-          <div class="card-tech">
-            <span class="tech-chip">Python</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-card">
-        <div class="card-tag live"><span class="pulse-node"></span>LIVE</div>
-        <div class="card-title">Elonalysis</div>
-        <div class="card-desc">A real-time sentiment analysis and fact-checking platform that monitors public perception of Elon Musk across X/Twitter, Reddit, YouTube, news sites, and Hacker News. Tracks sentiment trends, verifies claims, monitors promises, and analyzes how events impact public opinion.</div>
-        <div class="card-links">
-          <a class="card-link" href="https://elonalysis.vercel.app" target="_blank">elonalysis.vercel.app</a>
-        </div>
-        <div class="card-footer">
-          <div class="card-tech">
-            <span class="tech-chip">TypeScript</span>
-          </div>
-        </div>
-      </div>
 
       <div class="project-card">
         <div class="card-tag deployed">FUNCTIONAL</div>
@@ -1576,20 +1501,6 @@ nav { animation: fadeSlideIn 1s 0.2s ease both; }
       </div>
 
       <div class="project-card">
-        <div class="card-tag broken">BROKEN</div>
-        <div class="card-title">AI Math Tutor</div>
-        <div class="card-desc">An AI math tutoring application that lets users upload images and interact with an AI assistant for mathematical help.</div>
-        <div class="card-links">
-          <a class="card-link" href="https://ai-math-tutor-xi.vercel.app" target="_blank">ai-math-tutor-xi.vercel.app</a>
-        </div>
-        <div class="card-footer">
-          <div class="card-tech">
-            <span class="tech-chip">TypeScript</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="project-card">
         <div class="card-tag deployed">FUNCTIONAL</div>
         <div class="card-title">Pi Point</div>
         <div class="card-desc">Point-of-sale or utility application.</div>
@@ -1768,7 +1679,7 @@ nav { animation: fadeSlideIn 1s 0.2s ease both; }
       <div class="timeline-item">
         <div class="timeline-header">
           <span class="timeline-company">Gauntlet AI</span>
-          <span class="timeline-date">10/2025 — Present</span>
+          <span class="timeline-date">10/2025 — 12/2025</span>
         </div>
         <div class="timeline-role">Challenger</div>
         <div class="timeline-location">Austin, TX</div>
@@ -1874,18 +1785,18 @@ nav { animation: fadeSlideIn 1s 0.2s ease both; }
     <div class="project-grid">
 
       <div class="project-card">
-        <div class="card-tag dev">IN PROGRESS</div>
+        <div class="card-tag research">ATTENDED</div>
         <div class="card-title">University of North Texas</div>
-        <div class="card-desc">M.S. in Artificial Intelligence</div>
+        <div class="card-desc">Graduate coursework in Artificial Intelligence (M.S. program, no degree)</div>
         <div class="card-footer">
-          <span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--text-dim);">Denton, TX · Aug 2023 —</span>
+          <span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--text-dim);">Denton, TX · 2023 – 2024</span>
         </div>
       </div>
 
       <div class="project-card">
         <div class="card-tag research">ATTENDED</div>
         <div class="card-title">University of Texas at Dallas</div>
-        <div class="card-desc">Ph.D. Candidate, Computer Science</div>
+        <div class="card-desc">Ph.D. student, Computer Science (first year)</div>
         <div class="card-footer">
           <span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--text-dim);">Dallas, TX · 2018 – 2019</span>
         </div>
@@ -1911,32 +1822,13 @@ nav { animation: fadeSlideIn 1s 0.2s ease both; }
 
     </div>
 
-    <!-- Research -->
-    <div style="margin-top:32px;">
-      <div style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--gold);letter-spacing:0.2em;margin-bottom:16px;">◈ RESEARCH</div>
-      <div class="project-grid">
-        <div class="project-card">
-          <div class="card-tag research">RESEARCH</div>
-          <div class="card-title">Nicolelis Brain/Machine Interface Labs</div>
-          <div class="card-desc">Undergraduate Researcher — prototyped neuroprosthetics using linear regression and Kalman Filters to predict motor intentions from neuronal data. Senior thesis: Information Theoretic model of Artificial Tactile Stimulation computing BMI channel capacity.</div>
-          <div class="card-footer"><span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--text-dim);">Duke · 2011 – 2013 · Matlab · C/C++</span></div>
-        </div>
-        <div class="project-card">
-          <div class="card-tag research">RESEARCH</div>
-          <div class="card-title">Johns Hopkins CLSP</div>
-          <div class="card-desc">Computational Linguist — developed NLP technologies for extractive summarizers of multi-speaker audio. Implemented Graph Edit Distance reduction to Binary Linear Programming. Presented to NSF, ODNI, and Google Research.</div>
-          <div class="card-footer"><span style="font-family:'Share Tech Mono',monospace;font-size:10px;color:var(--text-dim);">Baltimore · 2012 · NLP · Python</span></div>
-        </div>
-      </div>
-    </div>
   </section>
 
   <!-- ═══ FOOTER ═══ -->
   <footer>
     <div class="footer-sig">The Bracket <span>Studio</span> — thebracketstudio.com</div>
     <div class="footer-links">
-      <a href="/cdn-cgi/l/email-protection#c1a5aeefa8afa7a8afa8b5a4adb881a6aca0a8adefa2aeac" class="footer-link">EMAIL</a>
-      <a href="https://linktr.ee/aleph_zero" target="_blank" class="footer-link">LINKTREE</a>
+      <a href="mailto:do.infinitely@gmail.com" class="footer-link">EMAIL</a>
       <a href="https://github.com/doInfinitely" target="_blank" class="footer-link">GITHUB</a>
     </div>
     <div class="footer-motto">Eadem mutata resurgo. — "Changed, yet the same, I rise again."</div>

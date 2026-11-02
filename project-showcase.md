@@ -192,24 +192,6 @@ A document analysis and investigation platform for exploring ~1.05 million docum
 
 ---
 
-### Project Icarus — AI Agent for Epstein Story Discovery
-A Python CLI tool using Anthropic Claude to discover and publish stories from the Epstein files via Reddit (PRAW) and Twitter (Tweepy).
-
-- **Tech:** Python
-- **Platform:** GitHub
-- **Status:** Functional CLI tool
-
----
-
-### Epstein Corollary
-Related analysis/tooling for the Epstein investigation.
-
-- **Tech:** Python
-- **Platforms:** GitHub, GCP (the-corollary-system)
-- **Status:** Supplementary project
-
----
-
 ### Elonalysis — Elon Musk Sentiment Analysis
 A real-time sentiment analysis and fact-checking platform that monitors public perception of Elon Musk across X/Twitter, Reddit, YouTube, news sites, and Hacker News. Tracks sentiment trends, verifies claims, monitors promises, and analyzes how events impact public opinion.
 
